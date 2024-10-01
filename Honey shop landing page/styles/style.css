@@ -1,0 +1,477 @@
+*{
+    font-family: "Kodchasan";
+}
+
+.nav_container{
+    height: 40px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    margin-top: 38px;
+    align-items: center;
+    
+}
+.nav_container ul{
+    display: flex;
+    flex-direction: row;
+    padding-right: 50px;
+}
+.nav_container>ul>li{
+
+    margin-right: 12px;
+}
+#nav_image{
+    padding-left: 227px;
+}
+#home{
+    font-weight: 600;
+}
+.images{
+    margin-top: 30px;
+    display: flex;
+}
+#spoon{
+    position: absolute;
+    padding-top: 30px;
+    z-index: 3;
+}
+#honey_bar{
+    padding-left: 853px;
+    padding-right: 60x;
+    padding-top: 124px;
+    position: absolute;
+    z-index: 3;
+}
+#bg_honey{
+    position: absolute;
+    z-index: 2;
+    padding-left: 128px;
+    padding-right: 63px;
+    padding-top: 89px;
+}
+#rect_1{
+    width: 1630px;
+    margin-top: 16px;
+    position: relative;
+    z-index: 1;
+    padding-left: 50px;
+}
+/* #buy_now{
+    position: absolute;
+    padding-left: 227px;
+    padding-right: 954px;
+    padding-top: 662px;
+} */
+.shops{
+    padding-left: 228px;
+    font-size: 50px;
+    font-weight: 600;
+}
+div.shops{
+    padding-top: 100px;
+}
+.about_honey{
+    display: flex;
+    margin-top: 130px;
+}
+#honey_bar2{
+    padding-left: 97px;
+}
+#about_text{
+    margin-left: 15px;
+}
+#created{
+    display: flex;
+    text-wrap: wrap;
+    padding-top: 205px;
+    font-size: 45px;
+    font-weight: 600;
+    padding-right: 96px;
+}
+#ingredient1{
+    display: flex;
+    text-wrap: wrap;
+    padding-top: 60px;
+    color: rgb(77,77,77);
+    padding-right: 128px;
+    font-size: 22px;
+    font-weight: 600;
+}
+#learn_more1{
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 59px;
+    width: 184px;
+    background-color: rgb(255,178,71);
+    margin-top: 662px;  
+    margin-left: 387px;
+    font-size: 18px;
+    font-weight: 580;
+    border: 2px solid #000;
+  
+}
+#learn_more2{
+    text-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 59px;
+    width: 184px;
+    background-color: rgb(229,130,17);
+    color: rgb(254,249,243);
+    margin-top: 105px;
+    font-size: 18px;
+    font-weight: 580;
+}
+#bg_honey{
+    padding-left: 50px;
+    width: 1630px;
+}
+#small_bee{
+    position: absolute;
+    z-index: 3;
+    padding-left: 227px;
+    padding-right: 1184px;
+    padding-top: 445px;
+}
+#bee_line{
+    margin-left: 177px;
+    margin-top: 569px;
+    position: absolute;
+    z-index: 2;
+}
+.buy_now_block{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 59px;
+    width: 184px;
+    background-color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
+    margin-top: 662px;  
+    margin-left: 177px;
+}
+.try_us{
+    margin-top: 100px;
+    padding-left: 111px;
+    padding-right: 110px;
+    display: flex;
+}
+.try_us_txt div{
+    display: flex;
+    text-wrap: wrap;
+}
+#question{
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 240px;
+    width: 548px;
+}
+#ingredient2{
+    color: rgb(77,77,77);
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 600;
+}
+#learn_more3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 59px;
+    width: 184px;
+    background-color: rgb(229,130,17);
+    color: rgb(0, 0, 0);
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 580;
+}
+footer{
+    background-color: rgb(255,178,72);
+    height: 137px;
+    margin-top: 130px;
+}
+.footer_text{
+    display: flex;
+    text-wrap: wrap;
+    padding-top: 45px;
+}
+#honey_black{
+    margin-left: 229px;
+    height: 29px;
+    width: 66px;
+    margin-top: 10px;
+}
+#footer_txt{
+    padding-left: 89px;
+    color: rgb(77,77,77);
+    font-size: 14px;
+    font-weight: 500;
+    width: 320px;
+    height: 47px;
+    margin-top: 8px;
+}
+.s_media{
+    margin-left: 100px;
+    width: 197px;
+    margin-top: 15px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+.app_st{
+    display: flex;
+    margin-left: 150px;
+    height: 42px;
+    gap: 30px;
+}
+#finger{
+    margin-top: 182px;
+    margin-left: 177px;
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    z-index: 2;
+}
+#licking{
+    margin-top: 322px;
+    margin-left: 275px;
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    z-index: 2;
+}
+#honey{
+    margin-top: 462px;
+    margin-left: 471px;
+    font-weight: bold;
+    font-size: 100px;
+    position: absolute;
+    z-index: 2;
+}
+#our_product{
+    font-size: 45px;
+    font-weight: bold;
+}
+.product-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+    margin-top: 100px;
+}
+#see_all{
+    font-size: 18px;
+    font-weight: bold;
+    /* padding-top: 2px; */
+    border-bottom: 2px solid rgb(229,130,17);;
+}
+#see_honey{
+    color:rgb(229,130,17) ;
+    border-bottom-width: 4px;
+    border-bottom-color: rgb(229,130,17);
+}
+.products{
+    padding: 0 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.eucalyptus_cl{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0253,246,238);
+    padding-left: 30px;
+    margin-top: 50px;
+}
+#eucalyptus_div{
+    display: flex;
+    text-wrap: wrap;
+    flex-direction: column;
+    width: 350px;
+    height: 280px;
+}
+#eucalyptus{
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 20px;
+}
+#scent_eucalyptus{
+    margin-top: 20px;
+    color: rgb(76,74,71);
+    font-size: 16px;
+    font-weight: 600;
+}
+#buy_eucalyptus{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 49px;
+    width: 140px;
+    margin-top: 20px;
+    color: rgb(229,130,17);
+    font-weight: bold;
+    font-size: 18px;
+    border-color: rgb(229,130,17);
+}
+.basswood_cl{
+    margin-left: 60px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 570px;
+    height: 280px;
+    background-color: rgb(0253,246,238);
+}
+#basswood-div{
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+}
+#basswood_honey{
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 18px;
+    margin-left: 30px;
+}
+#basswood_tree{
+    margin-top: 20px;
+    color: rgb(76,74,71);
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 50px;
+    margin-left: 30px;
+}
+#buy_basswood{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 49px;
+    width: 140px;
+    margin-top: 18px;
+    color: rgb(229,130,17);
+    font-weight: bold;
+    font-size: 18px;
+    border-color: rgb(229,130,17);
+    margin-left: 30px;
+}
+#basswood_honey_img{
+    margin-top: 30px;
+    margin-right: 40px;
+    height: 240px;
+    width: 120px;
+}
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 235px;
+}
+.buy_now_block2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 59px;
+    width: 184px;
+    color: rgb(255, 255, 255);
+    margin-top: 662px;  
+    margin-left: 177px;
+    border: 2px solid rgb(229,130,17);;
+}
+@media (max-width:640px){
+    .shops{
+        padding-left: 50px;
+        font-size: 40px;
+    }
+
+    .nav_container ul{
+        display: flex;
+        flex-direction: row;
+        padding-right: 50px;
+        text-wrap: nowrap;
+        text-align: right;
+        padding-left: 800px;
+    }
+    .nav_container>ul>li{
+        padding-left: 20px;
+    }
+    #bg_honey{
+        padding-top: 109px;
+        width: 1570px;
+        height: 720px;
+    }
+    .brands{
+        padding: 0 70px 0 0;
+        margin-left: 70px;
+        
+    }
+    #dunkin{
+        margin-left: 170px;
+    }
+    #miumiu{
+        margin-left: 170px;
+    }
+    #burberry{
+        margin-left: 170px;
+    }
+    #shops_id{
+        text-wrap: nowrap;
+    }
+    #rect_1{
+        padding-left: 30px;
+        width: 1580px;
+    }
+    #bg_honey{
+        padding-left: 20px;
+    }
+    #see_all{
+        margin-left: 895px;
+        display: flex;
+        text-wrap: nowrap;
+    }
+    #our_product{
+        text-wrap: nowrap;
+    }
+    #basswood_div{
+        width: 400px;
+    }
+    footer{
+        margin-bottom: 0;
+        width: 1650px;
+    }
+    .about_honey{
+        width: 1600px;
+    }
+    #about_text{
+        width: 430px;
+        height: 300px;
+        margin-right: 1000px;
+        padding-bottom: 180px;
+    }
+    #honey_bar2{
+        width: 827px;
+        height: 725px;
+        margin-right: 400px;
+    }
+    #created{
+        width: 600px;
+        padding-bottom: 60px;
+        
+    }
+    #ingredient1{
+        width: 450px;
+    }
+}
