@@ -1,0 +1,43 @@
+@media (min-width: 420px) {
+    .carousel-item{
+        height: 340px;
+    }
+    .all_characters{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .nav-mob{
+        display: none;
+    }
+    .nav-desk{
+        display: block;
+    }
+    
+}
+@media (min-width: 640px) {
+    .intro-mob{
+        display: none;
+    }
+    .intro-desktop{
+        display: block;
+    }
+    .main_slide{
+        display: block;
+    }
+    .controls{
+        display: block;
+    }
+    .all_characters{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 1024px) {
+    .intro-mob{
+        display: none;
+    }
+    .intro-desktop{
+        display: block;
+    }
+    .all_characters{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
