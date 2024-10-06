@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <main>
+        <form onsubmit="return false;"> 
+            <button onclick="generatePassword()">Generate a cool, secure password</button>
+            <div id="checkbox_container">
+                <span>Include lowercase characters? <input type="checkbox" id="lowercase"></span>
+                <span>Include uppercase characters? <input type="checkbox" id="uppercase"></span>
+                <span>Include numbers? <input type="checkbox" id="numbercase"></span>
+                <span>Include symbols? <input type="checkbox" id="symbolcase"></span>
+                <div class="length-container">
+                    <span>How long you want yor password to be?  <input type="number" min="1" value="1" id="length_input"></span>
+                    <img src="./Black_question_mark.png" alt="" style="width: 15px; height: 15px;" id="question_image">
+                    <span id="security-warning">For better security we recommend you to make a password at least 6 symbols long</span>
+                </div>
+                
+            </div>
+            <p id="final_password"></p>
+        </form>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

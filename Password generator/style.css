@@ -1,0 +1,19 @@
+#checkbox_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+span{
+    margin-bottom: 8px;
+}
+#security-warning{
+    /* display: none; */
+    background-color: grey;
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+.length-container{
+    display: flex;
+    flex-direction: row;
+}
