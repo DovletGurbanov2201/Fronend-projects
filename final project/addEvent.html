@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/adaptive.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>
+            You have opened link to craete a new event!
+            Enter information very carefully.
+        </h1>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default" >Name of the event<span style="color: #4340CB; margin-left: 2px;">*</span></span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="event_name" >
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default" >Date and Time<span style="color: #4340CB; margin-left: 2px;">*</span></span>
+            <input type="datetime-local" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="date_and_time" min="datetime-local">
+          </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default" >Brief description</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" maxlength="150" id="description">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default" >Assigned Address</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="assign_address">
+        </div>
+        <div class="container_check">
+            <input type="checkbox" id="vip_event">
+            <p>Is it very important event?</p>
+        </div>
+        <button id="save_btn">Save</button>
+        <a href="./index.html" id="coming_back">Go back to the main page</a>
+    </div>
+    <script src="./addEvent.js"></script>
+</body>
+</html>
